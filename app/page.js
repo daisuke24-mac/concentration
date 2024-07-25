@@ -74,7 +74,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <h1>最俺神経衰弱ゲーム</h1>
+      <h1>こーすけ神経衰弱</h1>
       {!gameState.gameStarted ? (
         <button onClick={startGame}>ゲーム開始</button>
       ) : (
